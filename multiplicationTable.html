@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Generate Your Multiplication Table</h1>
+
+        <div class="input-group">
+            <label for="row">Table number 1 - n</label>
+            <input type="number" placeholder="e.g., 5" id="row">
+
+            <label for="column">Multiples of n</label>
+            <input type="number" placeholder="e.g., 12" id="column">
+        </div>
+
+        <button onclick="generateTable()">Generate Table</button>
+
+        <div id="display"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
